@@ -10,7 +10,7 @@ import java.util.List;
  * modifying the model state and the updating the view.
  */
 
-public class CarController {
+public class CarController extends JFrame{
     // member fields:
 
     // The delay (ms) corresponds to 20 updates a sec (hz)
@@ -132,4 +132,7 @@ public class CarController {
             car.brake(brake);
         }
     }
+
+
+
 }
